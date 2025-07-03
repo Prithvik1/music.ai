@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './App.css';
 import { GoogleGenerativeAI } from '@google/generative-ai';
 
-const genAI = new GoogleGenerativeAI("AIzaSyDMryOCHpwvxSmf8FbHuhNrohlYZ_BeJfU"); // 👈 Replace with your actual API key
+const genAI = new GoogleGenerativeAI("AIzaSyDMryOCHpwvxSmf8FbHuhNrohlYZ_BeJfU");
 
 function App() {
   const [mood, setMood] = useState('');
