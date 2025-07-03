@@ -1,0 +1,72 @@
+/* 🎧 Full-page background */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #121212; /* Spotify dark background */
+  color: white;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* 🎵 App container - dark card style */
+.app-container {
+  max-width: 600px;
+  margin: 100px auto;
+  padding: 30px;
+  background-color: #181818; /* Slightly lighter than body */
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* ✏️ Input field styling */
+input {
+  width: 80%;
+  padding: 12px;
+  margin: 16px 0;
+  background-color: #282828;
+  color: white;
+  border: 1px solid #444;
+  border-radius: 8px;
+  font-size: 16px;
+  outline: none;
+}
+
+/* ✅ Green action button (Spotify style) */
+button {
+  padding: 10px 20px;
+  background-color: #1DB954; /* Spotify green */
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #1ed760;
+}
+
+button:disabled {
+  background-color: #555;
+  cursor: not-allowed;
+}
+
+/* 💬 Suggestion result box */
+.suggestion-box {
+  margin-top: 24px;
+  padding: 20px;
+  background-color: #202020;
+  border-left: 4px solid #1DB954;
+  border-radius: 12px;
+  text-align: left;
+  width: 100%;
+  box-shadow: 0 0 10px rgba(29, 185, 84, 0.2);
+}
+
+/* Optional: Make headings pop */
+h1, h3 {
+  color: #ffffff;
+}
